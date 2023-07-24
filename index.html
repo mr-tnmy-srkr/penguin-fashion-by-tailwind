@@ -25,11 +25,11 @@
 </head>
 
 <body>
-    <header class=" px-8 md:px-16 lg:px-24 py-5  bg-amber-100 ">
+    <header class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 pb-5  bg-amber-100 ">
         <!-- nav section -->
-        <div class="navbar">
+        <div class="navbar pl-0">
             <div class="justify-between m-auto">
-                <a class="btn btn-ghost justify-start pl-0 shrink"><img class="w-2/6 md:4/6 " src="./icons/logo.png"
+                <a class="btn btn-ghost justify-start pl-0 shrink"><img class="w-3/5 md:w-2/5 lg:w-3/5" src="./icons/logo.png"
                         alt="">
                 </a>
                 <div class="dropdown">
@@ -41,23 +41,23 @@
                         </svg>
                     </label>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-white"
                         style="position: absolute; right: 0">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Products</a></li>
 
-                        <li><a>Item 3</a></li>
-                        <li><a>Item 4</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Contact Us</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li><a>Item 2</a></li>
+            <div class="navbar-center hidden lg:flex text-black">
+                <ul class="menu menu-horizontal px-1 text-2xl">
+                    <li><a>Homes</a></li>
+                    <li><a>Products</a></li>
 
-                    <li><a>Item 3</a></li>
-                    <li><a>Item 4</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -67,7 +67,7 @@
         <!-- banner section -->
         <div class="flex flex-col md:flex-row gap-14 md:gap-0 justify-between items-center">
             <div class="space-y-3 text-center md:text-left">
-                <h1 class="text-7xl uppercase font-bebas">
+                <h1 class="text-5xl md:text-7xl uppercase font-bebas">
                     <span class="text-[#FABE4C]">Be the Penguins</span>
                     <br>
                     of Winter
@@ -331,9 +331,9 @@
                 </div>
             </section>
     </main>
-    <footer class="footer footer-center p-10 bg-amber-100 text-primary-content text-black">
+    <footer class="max-w-screen-2xl mx-auto footer footer-center p-10 bg-amber-100 text-primary-content text-black">
         <div>
-            <img class="w-3/5 lg:w-2/5" src="./icons/logo.png" alt="">
+            <img class="w-3/5 md:w-2/5" src="./icons/logo.png" alt="">
             <p class="font-bold">
                 ACME Industries Ltd. <br />Providing reliable tech since 1992
             </p>
